@@ -1,30 +1,33 @@
 # The Lucky Ducky Valentine
 
-## Overview
+## What This Is
 
-The Lucky Ducky Valentine is an interactive digital Valentine's card built as a small multi-scene web experience. Instead of a static card, the project walks the user through a playful duck-themed story with animated beats and a finale sequence.
+The Lucky Ducky Valentine is an interactive Valentine built as a small scene-based web experience. Instead of a single static page, the project runs through a short duck-themed story with transitions, interaction prompts, and a finale screen.
 
-## Stack
+## What Works
 
-- React
-- TypeScript
-- Vite
-- Component-based scene architecture
+- Intro scene with scrolling park journey and start interaction
+- Interactive middle scenes with hearts, dialogue, and gift presentation
+- Finale scene with restart flow
+- Scene-to-scene transitions driven by React state
+- Reusable duck character component across the full experience
 
-## What I Built
+## How It's Built
 
-- A multi-act interactive card flow
-- Scene-by-scene progression with custom components
-- A themed character-driven presentation instead of a static landing page
-- A lightweight, easily deployable front-end experience
+- React + TypeScript app bootstrapped with Vite
+- Scene controller in [App.tsx](./App.tsx)
+- Separate scene components under [components](./components)
+- Shared character rendering through [components/Ducky.tsx](./components/Ducky.tsx)
 
-## Why I Built It
+## Technical Notes
 
-I wanted to make something more memorable than a plain holiday page. The goal was to turn a small personal idea into a playful interactive product with structure, pacing, and personality.
+- The repo is structured like a tiny narrative app, not just a decorative landing page. Scene progression, timing, and interaction state are the main implementation surface.
+- Each scene has its own mechanic: a scrolling journey, a tap-to-pop heart sequence, a playful yes/no proposal interaction, and a restartable finale.
 
-## Outcome
+## Proof of Work
 
-The repo is a compact but polished front-end project that shows storytelling, interaction design, and clean React-based implementation in a small surface area.
+- Scene flow is orchestrated in [App.tsx](./App.tsx)
+- Act-specific interactions live in [components/Scene1.tsx](./components/Scene1.tsx), [components/Scene2.tsx](./components/Scene2.tsx), [components/Scene3.tsx](./components/Scene3.tsx), and [components/Finale.tsx](./components/Finale.tsx)
 
 ## Run Locally
 
