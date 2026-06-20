@@ -4,6 +4,18 @@
 
 The Lucky Ducky Valentine is an interactive Valentine built as a small scene-based web experience. Instead of a single static page, the project runs through a short duck-themed story with transitions, interaction prompts, and a finale screen.
 
+Live demo: [bmukhiil.github.io/the-lucky-ducky-valentine](https://bmukhiil.github.io/the-lucky-ducky-valentine/)
+
+## Preview
+
+![Scene 1](./docs/assets/lucky-ducky-scene-1.png)
+
+![Scene 2](./docs/assets/lucky-ducky-scene-2.png)
+
+![Proposal](./docs/assets/lucky-ducky-proposal.png)
+
+![Finale](./docs/assets/lucky-ducky-finale.png)
+
 ## What Works
 
 - Intro scene with scrolling park journey and start interaction
@@ -26,6 +38,8 @@ The Lucky Ducky Valentine is an interactive Valentine built as a small scene-bas
 
 ## Proof of Work
 
+- Live deployment: [bmukhiil.github.io/the-lucky-ducky-valentine](https://bmukhiil.github.io/the-lucky-ducky-valentine/)
+- Captured flow screenshots in [docs/assets](./docs/assets)
 - Scene flow is orchestrated in [App.tsx](./App.tsx)
 - Act-specific interactions live in [components/Scene1.tsx](./components/Scene1.tsx), [components/Scene2.tsx](./components/Scene2.tsx), [components/Scene3.tsx](./components/Scene3.tsx), and [components/Finale.tsx](./components/Finale.tsx)
 
